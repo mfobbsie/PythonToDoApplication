@@ -1,46 +1,91 @@
-# Python To Do Application
+# 🌿 Python To‑Do Application
+Author: Mary Fobbs‑Guillory
 
-## Author
-Mary Fobbs‑Guillory
+A gentle, energy‑aware command‑line productivity tool built with Python and Click.
 
-## Table of Contents
-- Introduction
-- Features
-- Prerequisites
-- Installation
-- Usage
-- Collaborators
-- Screenshots
+## 📘 Table of Contents
+Introduction
 
-## Introduction
-The Python To Do Application is a simple command‑line program built with the Click library. It provides a personalized greeting and an interactive menu that allows users to add, view, and delete tasks. The application includes basic error handling to keep the experience smooth and clear, and it runs entirely in the terminal.
+Features
 
-## Features
-- Personalized greeting using Click prompts  
-- Interactive menu with four options  
-- Add tasks to an in‑memory list  
-- View all tasks with numbered formatting  
-- Delete tasks by selecting a task number  
-- Error handling for invalid menu choices and invalid task numbers  
-- Organized into helper functions for readability and structure  
+Prerequisites
 
-## Prerequisites
-- Python 3.x  
-- Click library (`pip install click`)  
-- Terminal or command prompt
+Installation
 
-## Installation
+Usage
+
+Screenshots
+
+Collaborators
+
+## 🌱 Introduction
+The Python To‑Do Application is a warm, human‑centered command‑line tool designed to help users manage tasks in a way that aligns with their energy, mood, and intentions. Built with the Click library, it offers a guided, conversational experience with personalized greetings, energy‑based task recommendations, daily reflections, and streak tracking.
+
+This project began as a simple CLI and has grown into a thoughtful, introspective productivity companion.
+
+## ✨ Features
+### 🧭 Core Task Management
+Add tasks with energy level + desired emotional outcome
+
+View tasks in a clean, numbered list
+
+Delete tasks by selecting their number
+
+### 🔮 Smart Recommendations
+Suggest tasks based on:
+
+Current energy level (low, mid, high)
+
+Desired emotional outcome (rested, productive, inspired)
+
+### 🌙 Daily Reflection
+Log what you completed
+
+Describe how it felt
+
+Set one intention for tomorrow
+
+Automatically tracks consistency
+
+### 🔥 Streak Tracking
+See how many days in a row you’ve completed tasks
+
+View your last three reflections
+
+Encouraging, supportive tone throughout
+
+### 🌿 Thoughtful UX
+Personalized greeting
+
+Warm, grounded language
+
+Clear error handling
+
+Organized helper functions for readability
+
+## 🧩 Prerequisites
+Python 3.x
+
+Click library
+
+Code
+pip install click
+Terminal or command prompt
+
+## 📦 Installation
 Clone the repository and set up the project:
 
 bash
 git clone https://github.com/mfobbsie/PythonToDoApplication.git
 cd PythonToDoApplication
+python3 -m venv .venv
+source .venv/bin/activate
 pip install click
-python todo.py
-Usage
+python3 ToDo.py
+## ▶️ Usage
 After launching the program:
 
-Enter your name when prompted.
+Enter your name when prompted
 
 Choose from the menu options:
 
@@ -50,34 +95,53 @@ View tasks
 
 Delete a task
 
-Exit the application
+View recommended tasks
 
-Follow the prompts to manage your To Do list.
+Daily reflection
 
-The program continues running until you choose to exit.
+View streaks
 
-## Screenshots
+Exit
 
-Welcome screen and Menu display
+Follow the prompts to manage your day with intention
 
-<img width="453" height="242" alt="Screenshot 2026-02-27 at 11 15 09 PM" src="https://github.com/user-attachments/assets/f66ae4ab-2569-43cf-97bd-3db5772bde9f" />
+The program continues running until you choose to exit
 
-Adding a task
+## 🖼 Screenshots
+Replace the placeholders below with your new images once uploaded to GitHub.
 
-<img width="485" height="204" alt="Screenshot 2026-02-27 at 11 15 59 PM" src="https://github.com/user-attachments/assets/b6a6b625-4486-4ff7-908d-7218aa076619" />
+🌿 Welcome Screen & Menu
 
+<img width="588" height="310" alt="Screenshot 2026-04-06 at 9 28 19 AM" src="https://github.com/user-attachments/assets/e5fe640e-e3bc-4223-8df3-2c2687f2355d" />
 
-Viewing a task
+➕ Adding a Task
 
-<img width="345" height="244" alt="Screenshot 2026-02-27 at 11 18 03 PM" src="https://github.com/user-attachments/assets/7ca7bedb-57f0-4a7f-b3a0-45a81a93ca5d" />
+<img width="1235" height="120" alt="Screenshot 2026-04-06 at 9 29 12 AM" src="https://github.com/user-attachments/assets/2b044607-4d6e-434a-bc99-1c319f49ffc7" />
 
-Deleting a task
+📋 Viewing Tasks
+
+<img width="917" height="229" alt="Screenshot 2026-04-06 at 9 33 10 AM" src="https://github.com/user-attachments/assets/5b96877d-3936-44d6-a46c-8806e64dccf6" />
+
+❌ Deleting a Task
 
 <img width="571" height="299" alt="Screenshot 2026-02-27 at 11 20 00 PM" src="https://github.com/user-attachments/assets/67a4eefb-f91c-4582-aa12-892caea07fda" />
 
-Error Handling
+⚠️ Error Handling
 
 <img width="492" height="295" alt="Screenshot 2026-02-27 at 11 19 10 PM" src="https://github.com/user-attachments/assets/f21fda67-5ef7-4e58-86c2-41189928d6fc" />
+
+🔥 Recommendations
+
+<img width="1190" height="242" alt="Screenshot 2026-04-06 at 9 33 49 AM" src="https://github.com/user-attachments/assets/a084f36f-2285-445c-baab-09d54c15e6bc" />
+<img width="804" height="264" alt="Screenshot 2026-04-06 at 9 34 24 AM" src="https://github.com/user-attachments/assets/8ae1ab3e-8874-44a2-a3fa-2402f504f5c2" />
+
+🌙 Daily Reflection
+
+<img width="871" height="178" alt="Screenshot 2026-04-06 at 9 36 59 AM" src="https://github.com/user-attachments/assets/c197bff0-6c82-471e-9be1-b41e9e2f1a9b" />
+
+Goodbye Screen
+
+<img width="529" height="65" alt="Screenshot 2026-04-06 at 9 37 25 AM" src="https://github.com/user-attachments/assets/06f4b393-a146-4b52-a538-3fc1db9358db" />
 
 ## Collaborators
 
